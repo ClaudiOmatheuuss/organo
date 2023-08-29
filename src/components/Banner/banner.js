@@ -1,6 +1,6 @@
-import './banner.css'
+import './Banner.css'
 
-function Banner(){
+export const Banner = () => {
     return(
         //JSX
         <header className="banner">
@@ -10,5 +10,3 @@ function Banner(){
 }
 
 document.createElement('img')
-
-export default Banner
