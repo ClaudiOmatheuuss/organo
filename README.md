@@ -7,7 +7,7 @@
 
                                         Entendendo a aplicação
 <div>
-  O organo se trata de um site no qual é apresentado ao usuário os colaboradores de determinada empresa e sua área de atuação bem como uma breve descrição de cada um deles. Nesta aplicação React também é possível adicionar novos colaboradores preenchendo um formulário. Para entender mais sobre o funcionamento da aplicação acesse meu deploy em: claudiomatheuuss.github.io/organo/
+  O organo se trata de um site no qual é apresentado ao usuário os colaboradores de determinada empresa e sua área de atuação bem como uma breve descrição de cada um deles. Nesta aplicação React também é possível adicionar novos colaboradores preenchendo um formulário. Para entender mais sobre o funcionamento da aplicação acesse meu deploy em: <a href="" target="_blank">Deploy</a>
 </div>
 
 
