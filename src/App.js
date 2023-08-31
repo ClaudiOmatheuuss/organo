@@ -18,7 +18,7 @@ function App() {
     {
       nome: 'Data Science',
       corPrimaria: '#A6D157',
-      corSecundaria: 'F0F8E2' 
+      corSecundaria: '#F0F8E2' 
     },
     {
       nome: 'Devops',
