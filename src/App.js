@@ -4,7 +4,7 @@ import Time from './components/Time';
 
 
 function App() {
-  const Times = [
+  const times = [
     {
       nome: 'Programação',
       corPrimaria: '#57C278',
@@ -45,8 +45,8 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Formulario />
-      {Times.map(time => <Time key={time.nome} nome={time.nome} corPrimaria={time.corPrimaria} corSecundaria={time.corSecundaria} />)}
+      <Formulario times={times.map(time => time.nome)} />
+      {times.map(time => <Time key={time.nome} nome={time.nome} corPrimaria={time.corPrimaria} corSecundaria={time.corSecundaria} />)}
     </div>
   );
 }//o atributo key ajuda o React à identificar o componente e saber quando renderizar ou não.
