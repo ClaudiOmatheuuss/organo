@@ -46,9 +46,9 @@ function App() {
     <div className="App">
       <Banner />
       <Formulario />
-      {Times.map(time => <Time nome={time.nome} corPrimaria={time.corPrimaria} corSecundaria={time.corSecundaria} />)}
+      {Times.map(time => <Time key={time.nome} nome={time.nome} corPrimaria={time.corPrimaria} corSecundaria={time.corSecundaria} />)}
     </div>
   );
-}
+}//o atributo key ajuda o React à identificar o componente e saber quando renderizar ou não.
 
 export default App;
