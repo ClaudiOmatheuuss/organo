@@ -1,0 +1,45 @@
+.secao-rodape {
+    display: block;
+    background: #6278F7 url('/public/images/fundo.png');
+    background-size: 100%;
+    background-position: center;
+    padding: 30.90px 5%;
+}
+
+.secao-rodape .rodape__elementos{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%; 
+}
+
+.secao-rodape .redes{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 15%;
+}
+
+.secao-rodape .redes img{
+    width: 32px;
+    height: 32px;
+}
+
+.secao-rodape .criador{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    /* Estilos específicos para telas menores */
+    .secao-rodape{
+        background: #6278F7;
+    }
+    .secao-rodape .redes{
+        min-width: 55%;
+        padding: 16px;
+    }
+  }
