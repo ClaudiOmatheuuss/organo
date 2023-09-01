@@ -13,7 +13,12 @@ const Formulario = (props) => {
 
     const aoSalvar = (evento) => {
         evento.preventDefault()
-        console.log("O form foi enviado! =>", nome, cargo, imagem, time)
+        props.aoColaboradorCadastrado({
+            nome: nome,
+            cargo: cargo,
+            imagem: imagem,
+            time: time
+        })
     }
 
 

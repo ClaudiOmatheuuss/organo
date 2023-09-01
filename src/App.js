@@ -48,6 +48,7 @@ function App() {
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
     console.log(colaborador)
+    setColaboradores([...colaboradores, colaborador]) //coloca o colaborador como ultimo item da lista de colaboradores
   }
 
   return (
