@@ -13,7 +13,7 @@ const Formulario = (props) => {
 
     const aoSalvar = (evento) => {
         evento.preventDefault()
-        console.log("O form foi enviado!")
+        console.log("O form foi enviado! =>", nome, cargo, imagem, time)
     }
 
 
@@ -26,27 +26,27 @@ const Formulario = (props) => {
                     label="Nome"
                     placeholder="Digite o seu nome" 
                     valor={nome}
-                    alAlterado={valor => setNome(valor)}
+                    aoAlterado={valor => setNome(valor)}
                 />
                 <CampoTexto 
                     obrigatorio={true}
                     label="Cargo" 
                     placeholder="Digite seu cargo" 
                     valor={cargo}
-                    alAlterado={valor => setCargo(valor)}
+                    aoAlterado={valor => setCargo(valor)}
                 />
                 <CampoTexto 
                     label="Imagem" 
                     placeholder="Informe o endereço da imagem" 
                     valor={imagem}
-                    alAlterado={valor => setImagem(valor)}
+                    aoAlterado={valor => setImagem(valor)}
                 />
                 <ListaSuspensa 
                     obrigatorio={true} 
                     label="Time" 
                     itens={props.times} 
                     valor={time}
-                    alAlterado={valor => setTime(valor)}
+                    aoAlterado={valor => setTime(valor)}
                 /> 
                 <Botao>
                     Criar card
