@@ -5,15 +5,17 @@ import ListaSuspensa from '../ListaSuspensa'
 import './Formulario.css'
 
 const Formulario = (props) => {
+    const[nome, setNome] = useState('')
+    const[cargo, setCargo] = useState('')
+    const[imagem, setImagem] = useState('')
+    const[time, setTime] = useState('')
+
+
     const aoSalvar = (evento) => {
         evento.preventDefault()
         console.log("O form foi enviado!")
     }
 
-    const[nome, setNome] = useState('')
-    const[cargo, setCargo] = useState('')
-    const[imagem, setImagem] = useState('')
-    const[time, setTime] = useState('')
 
     return (
         <section className='formulario'>
@@ -46,7 +48,9 @@ const Formulario = (props) => {
                     valor={time}
                     alAlterado={valor => setTime(valor)}
                 /> 
-                <Botao texto="Criar card" />
+                <Botao>
+                    Criar card
+                </Botao>
             </form>
         </section>
     )
