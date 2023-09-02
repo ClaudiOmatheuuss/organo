@@ -21,4 +21,8 @@
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-        
+ <h3>Conhecimentos adquiridos:</h3>
+ 
+<p>criar uma aplicação react; como funciona o react; criar componentes react; o que é um JSX; como utilizar props de componentes; como funciona e como usar o hook useState; como funciona a renderização de componentes React e como atualizar-los usando a hook useState.</p>
+
+----------------------------------------------------------------------------------------------------------------------------------------
